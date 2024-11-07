@@ -1,3 +1,4 @@
+ HEAD
 #!/bin/bash
 
 # Check if an argument is provided
@@ -25,3 +26,13 @@ else
   # Format the output
   echo "The element with atomic number $ATOMIC_NUMBER is $NAME ($SYMBOL). It's a nonmetal, with a mass of $ATOMIC_MASS amu. $NAME has a melting point of $MELTING_POINT celsius and a boiling point of $BOILING_POINT celsius."
 fi
+
+#! /bin/bash
+echo 'Script running...'
+echo "Please provide an element as an argument."
+echo "Please provide an element as an argument."
+if [[ -z $1 ]]; then echo "Please provide an element as an argument."; fi
+if [[ $1 == "H" ]]; then echo "The element with atomic number 1 is Hydrogen (H)."; fi
+echo "Please provide an element as an argument."
+if [[ -z $1 ]]; then echo "Please provide an element as an argument."; fi
+ 9efb3d0 (feat: add argument check to element.sh)
