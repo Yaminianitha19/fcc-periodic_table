@@ -24,8 +24,4 @@ else
 
   # Format the output
   echo "The element with atomic number $ATOMIC_NUMBER is $NAME ($SYMBOL). It's a nonmetal, with a mass of $ATOMIC_MASS amu. $NAME has a melting point of $MELTING_POINT celsius and a boiling point of $BOILING_POINT celsius."
- HEAD
 fi
-
-fi
-19cdc02 (chore: add additional comment to element.sh)
